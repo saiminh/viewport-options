@@ -1,0 +1,19 @@
+{
+  "name": "formo-grid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "addFormoGrid.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start & sass --watch src/index.scss build/index.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/components": "22.1.0",
+    "@wordpress/icons": "9.13.0",
+    "@wordpress/scripts": "24.6.0",
+    "sass": "^1.60.0"
+  }
+}
