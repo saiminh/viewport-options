@@ -4,7 +4,7 @@
   "description": "",
   "main": "addFormoGrid.js",
   "scripts": {
-    "build": "wp-scripts build",
+    "build": "wp-scripts build && sass --style=compressed src/index.scss build/index.css",
     "start": "wp-scripts start & sass --watch src/index.scss build/index.css"
   },
   "keywords": [],
