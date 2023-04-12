@@ -52,7 +52,7 @@ const addAdvancedControls = wp.compose.createHigherOrderComponent((BlockEdit) =>
       } else {
         classes = '';
       }
-      classes = classes.replace(/\s/g, '');
+      classes = classes.replace(/  /g, '');
       if (device == 'mobile' && size == 'full') {
         classes.replace('is-half-height-mobile', '');
         !attributes.fullHeightMobile ? classes = classes + ' is-full-height-mobile' : classes = classes.replace('is-full-height-mobile', '');
