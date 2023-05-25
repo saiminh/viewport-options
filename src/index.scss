@@ -1,8 +1,8 @@
 // New class to make certain elements fill the viewport height
 
-@media (max-width: 781px) {
+@media (max-width: 599px) {
   :root {
-    --header-height: 65px;
+    --header-height: 0;
   }
   .is-reversed-mobile {
     flex-direction: column-reverse;
@@ -61,7 +61,7 @@
     flex-basis: calc(50svh - var(--header-height))!important;
   }
 }
-@media (min-width: 782px) {
+@media (min-width: 600px) {
   :root {
     --header-height: 82px;
   }
