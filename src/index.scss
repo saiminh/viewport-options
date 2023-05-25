@@ -2,7 +2,7 @@
 
 @media (max-width: 599px) {
   :root {
-    --header-height: 0;
+    --header-height: 0px;
   }
   .is-reversed-mobile {
     flex-direction: column-reverse;
@@ -63,7 +63,7 @@
 }
 @media (min-width: 600px) {
   :root {
-    --header-height: 0;
+    --header-height: 0px;
   }
   .hide-on-desktop {
     display: none;
