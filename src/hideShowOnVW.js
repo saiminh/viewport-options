@@ -1,4 +1,4 @@
-const supportedElements = ['core/spacer', 'core/separator'];
+const supportedElements = ['core/spacer', 'core/separator', 'core/image'];
 
 function addHideOnMobileToggle(settings, name) {
   if (typeof settings.attributes !== 'undefined') {
