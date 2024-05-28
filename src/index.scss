@@ -1,6 +1,6 @@
 // New class to make certain elements fill the viewport height
 
-@media (max-width: 599px) {
+@media (max-width: 782px) {
   :root {
     --header-height: 0px;
   }
@@ -61,7 +61,7 @@
     flex-basis: calc(50svh - var(--header-height))!important;
   }
 }
-@media (min-width: 600px) {
+@media (min-width: 782.1px) {
   :root {
     --header-height: 0px;
   }
